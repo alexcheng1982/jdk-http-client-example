@@ -46,6 +46,6 @@ public class ExtractBaiduHotSearchWords {
 
   public static void main(String[] args)
       throws IOException, InterruptedException {
-    System.out.println(new ExtractBaiduHotSearchWords().extract());
+    new ExtractBaiduHotSearchWords().extract().forEach(System.out::println);
   }
 }
